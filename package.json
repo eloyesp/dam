@@ -1,0 +1,31 @@
+{
+  "name": "dam",
+  "version": "0.0.1",
+  "description": "Date's modular arithmetic.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eloyesp/dam.git"
+  },
+  "keywords": [
+    "modular",
+    "arithmetic",
+    "date",
+    "recurring",
+    "slice",
+    "wrap",
+    "congrunce"
+  ],
+  "author": "Eloy Espinaco <eloyesp@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/eloyesp/dam/issues"
+  },
+  "homepage": "https://github.com/eloyesp/dam",
+  "devDependencies": {
+    "tape": "^4.0.0"
+  }
+}
