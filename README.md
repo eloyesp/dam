@@ -7,18 +7,15 @@ know if you work today do something as:
 var dma = require('dma');
 
 // set initial date and the number of days on each cycle.
-var cycle = dma(new Date('2015-05-14'), 5);
+var cycle = dma('2015-05-14', 5);
 
 function doWork (date) {
   return [0,1,2].indexOf(cycle(date)) !== -1;
 }
 
-console.log('will I work on June, 20? ',
-    doWork(new Date('2015-06-20'))); // => true
-
-console.log('will I work on June, 21? ',
-    doWork(new Date('2015-06-21'))); // => false
-~~~~
+console.log(doWork('2015-06-20')); // => true
+console.log(doWork('2015-06-21')); // => false
+~~~
 
 # License
 
