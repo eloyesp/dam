@@ -17,6 +17,13 @@ console.log(doWork('2015-06-20')); // => true
 console.log(doWork('2015-06-21')); // => false
 ~~~
 
+# Time zones
+
+In node dates are always UTC, but in the browser it will depend on the locale
+of the client, so it is better to specify the full date in the initial field
+like: `var cycle = dma('2015-05-14T00:00-0300', 5);`. Then you can query with
+`cycle()` to get the actual (on the client locale time) congruence class.
+
 # License
 
 Copyright (C) 2015  Eloy Espinaco
