@@ -1,5 +1,5 @@
 {
-  "name": "dam",
+  "name": "dma",
   "version": "0.0.1",
   "description": "Date's modular arithmetic.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/eloyesp/dam.git"
+    "url": "git://github.com/eloyesp/dma.git"
   },
   "keywords": [
     "modular",
@@ -22,9 +22,9 @@
   "author": "Eloy Espinaco <eloyesp@gmail.com>",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/eloyesp/dam/issues"
+    "url": "https://github.com/eloyesp/dma/issues"
   },
-  "homepage": "https://github.com/eloyesp/dam",
+  "homepage": "https://github.com/eloyesp/dma",
   "devDependencies": {
     "tape": "^4.0.0"
   }
